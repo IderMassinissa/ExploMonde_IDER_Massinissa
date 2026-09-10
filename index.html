@@ -33,33 +33,25 @@
 
       <section id="resultats">
         <h2>Résultats</h2>
-        <p role="status">3 pays trouvés</p>
+        <p id="statut-resultats" role="status">8 pays trouvés</p>
 
-        <article>
-          <h3>France</h3>
-          <p>Capitale : Paris</p>
-          <p>Région : Europe de l'Ouest</p>
-          <p>Population : 68 000 000</p>
-        </article>
+        <label for="filtre-region">Filtrer par région</label>
+        <select id="filtre-region">
+          <option value="toutes">Toutes les régions</option>
+          <option value="Europe">Europe</option>
+          <option value="Asie">Asie</option>
+          <option value="Amériques">Amériques</option>
+          <option value="Afrique">Afrique</option>
+        </select>
 
-        <article>
-          <h3>Japon</h3>
-          <p>Capitale : Tokyo</p>
-          <p>Région : Asie de l'Est</p>
-          <p>Population : 125 000 000</p>
-        </article>
-
-        <article>
-          <h3>Brésil</h3>
-          <p>Capitale : Brasília</p>
-          <p>Région : Amérique du Sud</p>
-          <p>Population : 216 000 000</p>
-        </article>
+        <div id="resultats-liste"></div>
+        <div id="detail" hidden></div>
       </section>
     </main>
 
     <footer>
       <p>&copy; 2026 ExploMonde</p>
     </footer>
+    <script type="module" src="js/main.js"></script>
   </body>
 </html>
