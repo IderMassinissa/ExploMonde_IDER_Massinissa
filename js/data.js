@@ -1,0 +1,58 @@
+export const pays = [
+  {
+    nom: "France",
+    capitale: "Paris",
+    region: "Europe",
+    population: 68000000,
+    code: "FR",
+  },
+  {
+    nom: "Japon",
+    capitale: "Tokyo",
+    region: "Asie",
+    population: 125000000,
+    code: "JP",
+  },
+  {
+    nom: "Brésil",
+    capitale: "Brasília",
+    region: "Amériques",
+    population: 216000000,
+    code: "BR",
+  },
+  {
+    nom: "Allemagne",
+    capitale: "Berlin",
+    region: "Europe",
+    population: 84000000,
+    code: "DE",
+  },
+  {
+    nom: "Égypte",
+    capitale: "Le Caire",
+    region: "Afrique",
+    population: 104000000,
+    code: "EG",
+  },
+  {
+    nom: "Canada",
+    capitale: "Ottawa",
+    region: "Amériques",
+    population: 38000000,
+    code: "CA",
+  },
+  {
+    nom: "Inde",
+    capitale: "New Delhi",
+    region: "Asie",
+    population: 1428000000,
+    code: "IN",
+  },
+  {
+    nom: "Sénégal",
+    capitale: "Dakar",
+    region: "Afrique",
+    population: 17000000,
+    code: "SN",
+  },
+];
